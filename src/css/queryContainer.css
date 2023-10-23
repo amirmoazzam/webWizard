@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    .container{
+        margin-top: 30rem;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1em;
+    }
+    .container:nth-child(2){
+        background-color: red !important;
+    }
+    .text-container{
+        padding: 0.2em;
+        text-align: center;
+    }
+    .text-container h3{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 600px) {
+    .container{
+        margin-top: 35%;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 4em;
+    }
+    .text-container{
+        padding: 5em;
+    }
+}
+
+.container{
+    display: flex;
+}
+.container img{
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+.text-container{
+    color: black;
+    text-align: justify;
+}
+.text-container h3{
+    font-size: 3rem;
+}

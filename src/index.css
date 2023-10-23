@@ -1,0 +1,67 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* 
+2C0735
+4E148C
+613DC1
+89D2DC
+08605F
+*/
+@media screen and (max-width: 600px) {
+  footer{
+    padding: 0;
+  }
+}
+@media screen and (min-width: 600px) {
+  footer{
+    padding: 0 !important;
+  }
+}
+
+*::selection{
+  background-color: #9A8C98;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  /* padding: 2em; */
+}
+button{
+  padding: 1em;
+  color: white;
+  font-size: .9rem;
+  background-color: rgba(78, 20, 140,0);
+  border: 1px solid purple;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+button:hover{
+  background-color: rgb(94, 59, 132);
+  /* background-color: rgb(53, 12, 97); */
+}
+button:active:focus{
+  background-color: rgb(65, 30, 102);
+}
+footer{
+  width: 100%;
+  height: 15rem;
+  /* padding: 0 4em !important; */
+  z-index: 10000 !important;
+  /* background-image: url(./media/wave.png); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+}
+footer h6{
+  text-align: center;
+  padding-top: 4rem;
+}
